@@ -1,0 +1,35 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FF9500</item>
+        <item name="colorPrimaryDark">#E68600</item>
+        <item name="colorAccent">#FF9500</item>
+    </style>
+
+    <style name="BaseButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="FuncButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_round</item>
+        <item name="android:backgroundTint">#636366</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="NumButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_round</item>
+        <item name="android:backgroundTint">#3A3A3C</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="OpButton" parent="BaseButton">
+        <item name="android:background">@drawable/btn_round</item>
+        <item name="android:backgroundTint">#FF9500</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
